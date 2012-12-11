@@ -34,3 +34,10 @@ It supports SMPlayer, VLC and some other players.
 %{_iconsdir}/hicolor/*/apps/%{name}.png
 %{_datadir}/%{name}/translations/*
 
+
+
+%changelog
+* Wed Apr 04 2012 Andrey Bondrov <abondrov@mandriva.org> 1.1-1mdv2011.0
++ Revision: 789125
+- imported package smtube
+
