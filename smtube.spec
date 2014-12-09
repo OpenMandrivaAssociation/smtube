@@ -1,5 +1,5 @@
 Name:		smtube
-Version:	2.1
+Version:	14.8.0
 Release:	1
 Summary:	Allows to play and download videos from YouTube
 License:	GPLv2+
@@ -34,4 +34,3 @@ It supports SMPlayer, VLC and some other players.
 %{_datadir}/applications/smtube.desktop
 %{_iconsdir}/hicolor/*/apps/%{name}.png
 %{_datadir}/%{name}/translations/*
-

@@ -1,4 +1,5 @@
 removed_sources:
   smtube-1.6.tar.bz2: b87ba7f275ce612545ed91e9c701a5164e6a68bd
-sources:
   smtube-2.1.tar.bz2: 201b79d5b56b8596b75e790dadc16daa4fe6bffb
+sources:
+  smtube-14.8.0.tar.bz2: ca03ceca94991cd33a935a2adc810c0fa49bdfe0
