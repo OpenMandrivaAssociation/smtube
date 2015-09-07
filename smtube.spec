@@ -1,6 +1,6 @@
 Name:		smtube
-Version:	14.8.0
-Release:	2
+Version:	15.8.0
+Release:	1
 Summary:	Allows to play and download videos from YouTube
 License:	GPLv2+
 Group:		Video
