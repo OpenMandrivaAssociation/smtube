@@ -9,6 +9,7 @@ Source0:	http://downloads.sourceforge.net/smplayer/SMTube/%{version}/%{name}-%{v
 Patch0:		smtube-1.6-optflags.patch
 BuildRequires:	qt4-devel
 BuildRequires:	qt4-linguist
+BuildRequires:	pkgconfig(QtWebKit)
 
 %description
 SMTube is a tool for searching and downloading videos from YouTube.
