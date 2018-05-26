@@ -4,8 +4,8 @@ Release:	1
 Summary:	Allows to play and download videos from YouTube
 License:	GPLv2+
 Group:		Video
-Url:		http://smplayer.sourceforge.net
-Source0:	http://downloads.sourceforge.net/smplayer/SMTube/%{version}/%{name}-%{version}.tar.bz2
+Url:		https://www.smtube.org/
+Source0:	http://sourceforge.net/projects/%{name}/files/SMTube/%{version}/%{name}-%{version}.tar.bz2
 Patch0:		smtube-1.6-optflags.patch
 BuildRequires:	qt5-devel
 BuildRequires:	qt5-linguist-tools
