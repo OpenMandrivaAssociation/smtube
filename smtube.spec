@@ -4,12 +4,20 @@ Release:	1
 Summary:	Allows to play and download videos from YouTube
 License:	GPLv2+
 Group:		Video
-Url:		http://smplayer.sourceforge.net
-Source0:	http://downloads.sourceforge.net/smplayer/SMTube/%{version}/%{name}-%{version}.tar.bz2
+Url:		https://www.smtube.org/
+Source0:	http://sourceforge.net/projects/%{name}/files/SMTube/%{version}/%{name}-%{version}.tar.bz2
 Patch0:		smtube-1.6-optflags.patch
 BuildRequires:	qt5-devel
 BuildRequires:	qt5-linguist-tools
-BuildRequires:	pkgconfig(Qt5WebKitWidgets) pkgconfig(Qt5Widgets) pkgconfig(Qt5WebKit) pkgconfig(Qt5Gui) pkgconfig(Qt5Network) pkgconfig(Qt5Script) pkgconfig(Qt5Core)
+BuildRequires:	pkgconfig(Qt5WebKitWidgets) 
+BuildRequires:	pkgconfig(Qt5Widgets) 
+BuildRequires:	pkgconfig(Qt5WebKit) 
+BuildRequires:	pkgconfig(Qt5Gui) 
+BuildRequires:	pkgconfig(Qt5Network) 
+BuildRequires:	pkgconfig(Qt5Script) 
+BuildRequires:	pkgconfig(Qt5Core)
+
+Suggests:	smplayer
 
 %description
 SMTube is a tool for searching and downloading videos from YouTube.
