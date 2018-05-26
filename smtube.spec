@@ -1,5 +1,5 @@
 Name:		smtube
-Version:	17.1.0
+Version:	18.3.0
 Release:	1
 Summary:	Allows to play and download videos from YouTube
 License:	GPLv2+
