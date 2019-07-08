@@ -1,5 +1,5 @@
 Name:		smtube
-Version:	18.11.0
+Version:	19.6.0
 Release:	1
 Summary:	Allows to play and download videos from YouTube
 License:	GPLv2+
@@ -17,7 +17,7 @@ BuildRequires:	pkgconfig(Qt5Network)
 BuildRequires:	pkgconfig(Qt5Script) 
 BuildRequires:	pkgconfig(Qt5Core)
 
-Suggests:	smplayer
+Recommends:	smplayer
 
 %description
 SMTube is a tool for searching and downloading videos from YouTube.
@@ -29,13 +29,13 @@ It supports SMPlayer, VLC and some other players.
 
 %build
 %setup_compile_flags
-%make \
+%make_build \
 	PREFIX=%{_prefix} \
 	QMAKE=%{_bindir}/qmake-qt5 \
 	LRELEASE=%{_libdir}/qt5/bin/lrelease
 
 %install
-%makeinstall_std PREFIX=%{_prefix}
+%make_install PREFIX=%{_prefix}
 
 %files
 %doc Changelog *.txt
