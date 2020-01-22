@@ -1,5 +1,5 @@
 Name:		smtube
-Version:	19.6.0
+Version:	20.1.0
 Release:	1
 Summary:	Allows to play and download videos from YouTube
 License:	GPLv2+
@@ -25,7 +25,7 @@ It supports SMPlayer, VLC and some other players.
 
 %prep
 %setup -q
-%patch0 -p1
+%autopatch -p1
 
 %build
 %setup_compile_flags
