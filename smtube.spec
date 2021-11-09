@@ -38,7 +38,7 @@ It supports SMPlayer, VLC and some other players.
 %make_install PREFIX=%{_prefix}
 
 %files
-%doc Changelog *.txt
+%doc *.txt
 %{_bindir}/%{name}
 %{_datadir}/applications/smtube.desktop
 %{_iconsdir}/hicolor/*/apps/%{name}.png
