@@ -6,7 +6,7 @@ License:	GPLv2+
 Group:		Video
 Url:		https://www.smtube.org/
 Source0:	http://sourceforge.net/projects/%{name}/files/SMTube/%{version}/%{name}-%{version}.tar.bz2
-Patch0:		smtube-1.6-optflags.patch
+
 BuildRequires:	qt5-devel
 BuildRequires:	qt5-linguist-tools
 BuildRequires:	pkgconfig(Qt5WebKitWidgets) 
@@ -38,7 +38,7 @@ It supports SMPlayer, VLC and some other players.
 %make_install PREFIX=%{_prefix}
 
 %files
-%doc *.txt
+%doc Release_notes.md *.txt
 %{_bindir}/%{name}
 %{_datadir}/applications/smtube.desktop
 %{_iconsdir}/hicolor/*/apps/%{name}.png
