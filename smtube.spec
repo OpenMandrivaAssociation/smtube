@@ -7,6 +7,7 @@ Group:		Video
 Url:		https://www.smtube.org/
 Source0:	http://sourceforge.net/projects/%{name}/files/SMTube/%{version}/%{name}-%{version}.tar.bz2
 
+BuildRequires:	make
 BuildRequires:	qt5-devel
 BuildRequires:	qt5-linguist-tools
 BuildRequires:	pkgconfig(Qt5WebKitWidgets) 
